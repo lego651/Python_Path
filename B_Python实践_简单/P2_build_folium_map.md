@@ -17,6 +17,9 @@ map.save("map1.html")
 ```
 After you execute this code, you should have a map1.html generated under current work directory. Drag that .html file into your browser and you should get something like:
 <img src="https://i.ibb.co/J2pFLnR/Step1.png" width="100%">
+<br />
+<br />
+
 
 
 
@@ -35,6 +38,10 @@ folium.Marker(location=[37.4074687,-122.086669], popup = "Google HQ", icon=foliu
 map.save("map1.html")
 ```
 <img src="https://i.ibb.co/chHm1wM/Step2.png" width="100%">
+<br />
+
+
+
 
 ## Step 3 — Add Multiple Markers
 ``` python
@@ -51,8 +58,14 @@ for coordinates in [[37.4074687,-122.086669],[37.8199286,-122.4804438]]:
 
 #Save the map
 map.save("map1.html")
-
+```
 <img src="https://i.ibb.co/VNFvpq6/Step3.png" width="100%">
+<br />
+<br />
+
+
+
+
 ## Step 4 — Adding Markers from Data
 ``` python
 #Import Library
@@ -76,6 +89,11 @@ for lat, lon, elevation in zip(lat, lon, elevation):
 map.save("map1.html")
 ```
 <img src="https://i.ibb.co/FzNcfvT/Step4.png" width="100%">
+<br />
+<br />
+
+
+
 ## Step 5 — Add Colors to Markers
 ``` python
 #Import Library
@@ -108,6 +126,11 @@ for lat, lon, elevation in zip(lat, lon, elevation):
 map.save("map1.html")
 ```
 <img src="https://i.ibb.co/bNMZPmk/Step5.png" width="100%">
+<br />
+<br />
+
+
+
 ## Step 6 — Change Icons
 ``` python
 #Import Library
@@ -141,6 +164,11 @@ for lat, lon, elevation in zip(lat, lon, elevation):
 map.save("map1.html")
 ```
 <img src="https://i.ibb.co/F8DNYmq/Step6.png" width="100%">
+<br />
+<br />
+
+
+
 ## Step 7 — Cluster all Markers
 ``` python
 #Import Library
