@@ -18,6 +18,8 @@ map.save("map1.html")
 After you execute this code, you should have a map1.html generated under current work directory. Drag that .html file into your browser and you should get something like:
 <img src="https://i.ibb.co/J2pFLnR/Step1.png" width="100%">
 
+
+
 ## Step 2 — Add Marker
 ``` python
 #Import Library
@@ -49,7 +51,7 @@ for coordinates in [[37.4074687,-122.086669],[37.8199286,-122.4804438]]:
 
 #Save the map
 map.save("map1.html")
-```
+
 <img src="https://i.ibb.co/VNFvpq6/Step3.png" width="100%">
 ## Step 4 — Adding Markers from Data
 ``` python
